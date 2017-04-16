@@ -1,6 +1,6 @@
 {
   "name": "picofday",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Picture of the Day extracted from 500px",
   "main": "src/picOfTheDay.js",
   "bin": "./src/picOfTheDay-cli.js",
@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/rtpaulino/picofday#readme",
   "dependencies": {
+    "cheerio": "^0.22.0",
     "mkdirp": "^0.5.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
     "uuid": "^3.0.1"
   }
 }

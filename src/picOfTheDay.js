@@ -123,7 +123,6 @@ var download = function (photo) {
     return getDestinationFile(photo.format)
         .then(dest => {
                 return new Promise((resolve, reject) => {
-                    var http = require('http');
                     var fs = require('fs');
 
                     var file = fs.createWriteStream(dest);
