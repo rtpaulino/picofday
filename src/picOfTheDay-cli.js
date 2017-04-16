@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict';
 
 var picOfTheDay = require('./picOfTheDay.js');

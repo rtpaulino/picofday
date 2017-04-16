@@ -1,6 +1,6 @@
 {
   "name": "picofday",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "Picture of the Day extracted from 500px",
   "main": "src/picOfTheDay.js",
   "bin": "./src/picOfTheDay-cli.js",
