@@ -1,0 +1,29 @@
+{
+  "name": "picofday",
+  "version": "1.0.0",
+  "description": "Picture of the Day extracted from 500px",
+  "main": "src/picOfTheDay.js",
+  "bin": "./src/picOfTheDay-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtpaulino/picofday.git"
+  },
+  "keywords": [
+    "500px",
+    "picture",
+    "wallpaper"
+  ],
+  "author": "Rafael Teixeira Paulino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rtpaulino/picofday/issues"
+  },
+  "homepage": "https://github.com/rtpaulino/picofday#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "uuid": "^3.0.1"
+  }
+}
